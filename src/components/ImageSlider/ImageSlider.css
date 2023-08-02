@@ -1,0 +1,13 @@
+.splide__slide img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Optionally, you can add some styling to the slider container */
+  .splide__track {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    overflow: hidden;
+  }

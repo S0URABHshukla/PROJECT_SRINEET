@@ -1,0 +1,10 @@
+body
+{
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+}
+.App
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}

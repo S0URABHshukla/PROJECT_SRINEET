@@ -1,0 +1,38 @@
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: "PT Sans";
+    padding: 4px 22px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+}
+.infoo
+{
+    font-size: 15px;
+}
+@media (max-width: 570px) {
+    .container {
+      font-size: 10px;
+    }
+  
+    .infoo {
+      /* Add responsive styles for mobile view */
+      /* For example, you can change flex-direction to stack the items vertically */
+      /* flex-direction: column; */
+      font-size: 12px;
+    }
+  }
+  @media (min-width: 430px) and (max-width: 570px) {
+    .container {
+      font-size: 10px;
+    }
+  
+    .infoo {
+      /* Add responsive styles for mobile view */
+      /* For example, you can change flex-direction to stack the items vertically */
+      /* flex-direction: column; */
+      font-size: 12px;
+    }
+  }
