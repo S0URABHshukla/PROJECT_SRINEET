@@ -28,9 +28,9 @@ const ImageSlider = () => {
     'https://5.imimg.com/data5/SELLER/Default/2021/9/FN/SV/JB/46524169/sanitaryware-jaquar.jpeg',
     'https://www.cera-india.com/sites/default/files/2021-04/03%20-%20Sanitaryware%20-%20Wash%20basins%20thumbnail.jpg',
     'https://www.toyoindia.in/wp-content/uploads/cat-black-series-menu.jpg',
-    'https://www.jaquar.com/images/thumbs/0043949_laguna_400.jpeg',
+    'https://5.imimg.com/data5/SELLER/Default/2021/9/FN/SV/JB/46524169/sanitaryware-jaquar.jpeg',
     'https://www.aquantindia.com/images/Aquant-Special-Finish-Toilets.jpg',
-    'https://www.jaquar.com/images/thumbs/0044243_queens-prime_400.jpeg',
+    'https://www.toyoindia.in/wp-content/uploads/cat-black-series-menu.jpg',
   ];
 
   return (

@@ -10,7 +10,50 @@ p
 .blur
 {
     position: absolute;
-    height: 500px;
+    height: auto;
     width: 46%;
     background-color: rgb(31 78 88 / 44%);
 }
+
+@media (max-width: 768px){
+
+    
+    .blur{
+        position: absolute;
+        height: auto;
+        width: 75%;
+        background-color: rgb(31 78 88 / 44%);
+    }
+    p {
+        width: 100%;
+        text-align: justify;
+    }
+    .ptag
+{
+    right: 50px;
+}
+    }
+
+    @media (max-width: 480px){
+        p {
+            width: 142% !important;
+            text-align: justify;
+        }
+
+    
+        .blur{
+            position: absolute;
+            height: auto;
+            width: 75%;
+            background-color: rgb(31 78 88 / 44%);
+        }
+        p {
+            width: 400px;
+            margin: 0 auto;
+            position: relative;
+        }   
+        .ptag
+{
+    right: 50px;
+}  
+       }

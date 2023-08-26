@@ -1,31 +1,46 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     margin: auto;
-    width: 90%;
-    gap: 10px;
+    width: 100%;
+    gap: 20px;
+}
+.pro
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    margin: auto;
+}
+.prop
+{
+    font-size: 2.25rem;
+    padding-left: 4rem;
+    /* font-family: Helvetica; */
+    width: auto;
+    margin-top: 100px;
+}
+.pimg
+{
+    width: 580px;
+    height: 550px;
+}
+.prop2
+{
+    padding-left: 4rem;
+    font-size: 1rem;
+    width: 70%;
+    color: #534e4e;
+    line-height: 1.6rem;
+    /* margin-top: 100px; */
 }
 .name
 {
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     color: #fff;
     top: 72%;
     position: absolute;
     left: 5%;
 }
-.hover
-{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-/* .hover:hover
-{
-    background-color: rgba(0, 0, 0, 0.6);
-    border: 2px solid goldenrod;
-    border-top-width: 10px;
-    border-left-width: 10px;
-} */
 
 .explore
 {
@@ -40,21 +55,68 @@
 }
 .productsContainer
 {
-    height: 550px;
+    height: 435px;
 }
 .productsContainer:hover
 {
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.img
+{
+    transition: transform 0.7s ease;
+    border-radius: 10px;
+    
+}
+.img:hover
+{
+    transform: scale(1.2);
+    transform-origin: center center;
 }
 .bg
 {
-    /* background-image: url("https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg=="); */
     background-size: cover;
     background: aliceblue;
 }
 
-
-
-
-
-
+@media (max-width: 480px){
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        margin: auto;
+        width: 100%;
+        gap: 10px;
+    }
+    .name
+    {
+        font-size: 1.8rem;
+    }
+    }
+    @media (max-width: 768px) {
+        .pimg {
+          width: 100%;
+          height: auto;
+        }
+      }
+      @media (max-width: 768px) {
+       .prop
+       {
+        margin-top: 10px;
+        padding-left: 0px;
+        /* font-size: 32px; */
+        /* text-align: center; */
+       }
+       .prop2
+       {
+        padding-left: 0;
+        margin-left: 0 !important;;
+        text-align: justify;
+        width: 85% !important;
+       }
+       .img2
+       {
+        order: 2;
+       }
+      }
+      

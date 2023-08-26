@@ -9,3 +9,20 @@ p
 .text-warnings {
     color: #235395 !important;
 }
+.srineet
+{
+    width: auto !important;
+}
+@media (max-width: 480px){
+
+    .pardeep {
+        left: 0px !important;
+    }
+    }
+
+    @media (max-width: 768px){
+
+        .pardeep {
+            left: 0px !important;
+        }
+        }

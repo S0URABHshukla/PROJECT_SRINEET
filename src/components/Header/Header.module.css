@@ -12,9 +12,17 @@
 {
     font-size: 15px;
 }
+.download:hover
+{
+  scale: 1.2;
+  transition: 0.2s ease-in;
+
+}
 @media (max-width: 570px) {
     .container {
       font-size: 10px;
+      flex-direction: column;
+      background: aliceblue;
     }
   
     .infoo {

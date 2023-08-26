@@ -3,18 +3,19 @@ import why from "./WhyChooseUs.module.css";
 import Box from '@mui/material/Box';
 function WhyChooseUs() {
   return (
-    <Box>
+    <Box id="why">
     <div
     data-aos="zoom-in"
      data-aos-easing="linear"
      data-aos-duration="700"
+     
       className={why.p}
       style={{
         width:'100%',
         // marginBottom:'-90px',
         padding: "70px",
         paddingTop:'40px',
-        height:'578px',
+        height:'auto',
         backgroundImage: 'url("./customer.jpg")',
         // backgroundImage: 'url("https://media.istockphoto.com/id/1157105049/photo/portrait-of-her-she-nice-charming-cute-attractive-lovely-cheerful-wavy-haired-girl-in-checked.jpg?s=612x612&w=0&k=20&c=kwtdYmos8YyFRsbHcdNBs6JCy53_e65MECnR2pdnzIg=")',
         backgroundRepeat:'no-repeat',
@@ -35,31 +36,31 @@ function WhyChooseUs() {
         >
           Why <span style={{ color: "goldenrod" }}>Choose Us?</span>
         </p>
-        <p data-aos="fade-right" data-aos-duration="1000">
+        <p data-aos="fade-right" data-aos-duration="1000"style={{textAlign:'justify'}}>
           <strong>
             SRIneet was built on the platform of customer satisfaction, innovation
             & Quality Control to revolutionize the industry in India. SRIneet has
             remained true to its core value.
           </strong>
         </p>
-        <p data-aos="fade-left" data-aos-duration="1000">
+        <p data-aos="fade-left" data-aos-duration="1000" style={{textAlign:'justify'}}>
           We have always worked our best to be innovation-driven and future
           focused business to create refreshing experiences for the changing needs
           of the consumer.
         </p>
 
-        <p data-aos="fade-right" data-aos-duration="1000">
+        <p data-aos="fade-right" data-aos-duration="1000" style={{textAlign:'justify'}}>
           We aim to create compelling ideas that transform the quality of life &
           make a difference. Since inception, we have consistently diversified our
           product portfolio, High-end versions that exude a lifestyle statement in
           their very form.
         </p>
-        <p data-aos="fade-left" data-aos-duration="1000">
+        <p data-aos="fade-left" data-aos-duration="1000" style={{textAlign:'justify'}}>
           A combination of breakthrough technologies and path-breaking innovation
           with a wide product range and positive brand image has helped us create
           indelible imprints in the mind of our valued customer.
         </p>
-        <p data-aos="fade-right" data-aos-duration="1000">
+        <p data-aos="fade-right" data-aos-duration="1000" style={{textAlign:'justify'}}>
           SRIneet is a combined result of our consistent pursuit of innovation and
           penchant for consumer delight. The moment you will surf forward, You
           will discover the complete spectrum of breathtaking designs never seen
